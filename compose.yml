@@ -1,0 +1,9 @@
+version: "3.7"
+
+name: "spleeter"
+services:
+  cmd:
+    build: .
+    tty: true
+    volumes:
+      - "./:/home/dev"
